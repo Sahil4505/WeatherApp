@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="title">Weather App</h2>
+            <div class="searchbox">
+                <input type="text" placeholder="Enter City" id="city" class="input">
+                <button class="btn">Search</button>
+            </div>
+            <div class="hidden" id="hidden">
+                <h3 class="cityname">City</h3>
+                <div class="dir">
+                    <div class="longi">
+                        <p class="value">78.25</p>
+                        <p class="label">Longitude</p>
+                    </div>
+                    <div class="lati">
+                        <p class="value">13.25</p>
+                        <p class="label">Latitude</p>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="b1">
+                        <div class="humi">
+                            <p class="value">12.0</p>
+                            <p class="label">Humidity</p>
+                        </div>
+                        <div class="pressure">
+                            <p class="value">78.25</p>
+                            <p class="label">Pressure</p>
+                        </div>
+                    </div>
+                    <div class="temper">
+                        <p class="value temperature">26.0 <span class="unit">°C</span></p>
+                        <p class="label">Temperature</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
