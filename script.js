@@ -35,7 +35,7 @@ async function weather(){
 	  u: 'c'
 	},
 	headers: {
-	  'x-rapidapi-key': '2e6b8cc5bcmsh82de57e017622f0p12ffb0jsn28afdeda9bb9',
+	  'x-rapidapi-key': ,
 	  'x-rapidapi-host': 'yahoo-weather5.p.rapidapi.com'
 	}
   };
